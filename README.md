@@ -1,4 +1,4 @@
-# URL_sorter
+# URL_shorter
 URL Shortener and User Authentication
 
 Overview
