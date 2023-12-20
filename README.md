@@ -15,13 +15,8 @@ This project is a URL shortener with user authentication capabilities. It allows
 
 ## Endpoints
 
-### Home URL
-- **URL:** [http://localhost:3000/](http://localhost:3000/)
-- **Method:** GET
-- **Description:** Home endpoint for the application.
-
 ### User Registration
-- **URL:** [http://localhost:3000/user/register](http://localhost:3000/user/register)
+- **URL:** [https://urlshorter-c1o0.onrender.com/user/register]
 - **Method:** POST
 - **Description:** Register a new user.
 
@@ -39,7 +34,7 @@ Body:
   "message": "User registered successfully"
 }
 User Login
-URL: http://localhost:3000/user/login
+**URL:** [https://urlshorter-c1o0.onrender.com/user/login]
 Method: POST
 Description: Authenticate and login a user.
 #### Request
@@ -54,7 +49,7 @@ Body:
   "token": "eyJhbGciOiJIUzI1NiIsIn..."
 }
 #### Generate Short URL
-URL: http://localhost:3000/url
+URL: [https://urlshorter-c1o0.onrender.com/url]
 Method: POST
 Description: Create a new short URL.
 #### Request
@@ -64,9 +59,10 @@ Description: Create a new short URL.
 Response
 Status Code: 200
 Body:
-<a href="http://localhost:3000/url/{short_url_name}">Shortened URL</a>
+<a href="https://urlshorter-c1o0.onrender.com/url{short_url_name}">Shortened URL</a>
 Redirect to Shortened URL
-URL: http://localhost:3000/url/{short_url_name}
+URL: https://urlshorter-c1o0.onrender.com/url/{short_url_name}
+example: [https://urlshorter-c1o0.onrender.com/url/ztr]
 Method: GET
 Description: Redirect to the original URL associated with the provided short URL.
 Response
